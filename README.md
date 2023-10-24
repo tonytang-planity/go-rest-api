@@ -31,6 +31,12 @@ docker-compose up -d
 
 ### Usage
 
+Start the server :
+
+```bash
+go run cmd/server/main.go
+```
+
 Once the services are up, the API will be available at http://localhost:8080. Here are some of the endpoints you can access:
 
     GET /users: List all users
